@@ -4,7 +4,7 @@
 
 ## Motivation
 
-RandOddEvenHeatMapper is a tool created for final project of MBG6113 lecture given in Izmir Biomedicine and Genom Center by Ezgi Karaca ([CSB-KaracaLab/](https://github.com/CSB-KaracaLab/))
+RandOddEvenHeatMapper is a tool created for final project of MBG6113 lecture given in Izmir Biomedicine and Genom Center by Ezgi Karaca ([CSB-KaracaLab](https://github.com/CSB-KaracaLab))
 
 **Quick Example(s)**
 
