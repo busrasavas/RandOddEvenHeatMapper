@@ -16,12 +16,14 @@ number_range=100    #please state the number range you require
 ```
 random_matrix=np.random.randint(number_range+1, size=(required_size, required_size))
 ```
-- creates a heatmap figure saves it.
-<img src="https://user-images.githubusercontent.com/62547137/150119783-280cda8a-d61e-4069-b210-fe8028b45d6f.jpg" width="300" height="300">
-![random_matrix_fig](https://user-images.githubusercontent.com/62547137/150119783-280cda8a-d61e-4069-b210-fe8028b45d6f.jpg)
 - checks the all elements in the produced matrix if they are odd or even.
-- creates a heatmap figure that shows odd and even numbers in the random matrix.
+```
+OddEvenMatrix=random_matrix%2==0
+OddEvenMatrix=OddEvenMatrix.astype(int)
+```
+- creates a heatmap figure for both random matrix and random odd/even matrix and saves the figures.
 
+<img src="https://user-images.githubusercontent.com/62547137/150119783-280cda8a-d61e-4069-b210-fe8028b45d6f.jpg" width="300" height="300">
 ## Our folders describe:
 
 - **Script** contains the jupyter notebook script that produces a random matrix and heatmap.
