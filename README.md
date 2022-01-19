@@ -3,7 +3,8 @@
 #### by Büşra Savaş
 
 ## Motivation
-Dynamic cross correlation analysis (DCCA) is commonly used for interpreting molecular dynamics simulations. Moreover, DCCC is useful to analyze communications among different parts of complex systems. Despite the popularity of this analysis, we noticed that GROMACS does not directly give the relevant outputs. Here, we introduce a simple script that converts the covariance matrix produced by GROMACS covar to cross correlation matrix and creates a heat map figure.
+
+RandOddEvenHeatMapper is a tool created for final project of MBG6113 lecture given in Izmir Biomedicine and Genom Center by Ezgi Karaca ([CSB-KaracaLab/](https://github.com/CSB-KaracaLab/))
 
 **Quick Example(s)**
 
