@@ -4,7 +4,15 @@
 
 ## Motivation
 
-RandOddEvenHeatMapper is a tool created for final project of MBG6113 lecture given in Izmir Biomedicine and Genom Center by Ezgi Karaca ([CSB-KaracaLab](https://github.com/CSB-KaracaLab))
+RandOddEvenHeatMapper is a tool created for final project of MBG6113 lecture given in Izmir Biomedicine and Genom Center by Ezgi Karaca ([CSB-KaracaLab](https://github.com/CSB-KaracaLab)). 
+
+## Features of RandOddEvenHeatMapper
+- Adjustable matrix size and number range, just by editing the corresponding cell.
+```
+required_size=100   #please state the size you require
+number_range=100    #please state the number range you require
+```
+- 
 
 **Quick Example(s)**
 
