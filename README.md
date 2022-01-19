@@ -21,10 +21,10 @@ random_matrix=np.random.randint(number_range+1, size=(required_size, required_si
 OddEvenMatrix=random_matrix%2==0
 OddEvenMatrix=OddEvenMatrix.astype(int)
 ```
-- creates a heatmap figure for both random matrix and random odd/even matrix and saves the figures.
+- creates a heatmap figure for both random matrix and random odd/even matrix and saves the figures. Figure examples are provided in below:
 
-<img src="https://user-images.githubusercontent.com/62547137/150119783-280cda8a-d61e-4069-b210-fe8028b45d6f.jpg" width="450" height="450">
-<img src="https://user-images.githubusercontent.com/62547137/150121475-4687dffc-146f-4ba4-83c5-20548cd7d1e8.jpg" width="450" height="450">
+<img src="https://user-images.githubusercontent.com/62547137/150119783-280cda8a-d61e-4069-b210-fe8028b45d6f.jpg" width="470" height="440"><img src="https://user-images.githubusercontent.com/62547137/150121475-4687dffc-146f-4ba4-83c5-20548cd7d1e8.jpg" width="470" height="440">
+
 ## Our folders describe:
 
 - **Script** contains the jupyter notebook script that produces a random matrix and heatmap.
