@@ -7,25 +7,16 @@
 RandOddEvenHeatMapper is a tool created for final project of MBG6113 lecture given in Izmir Biomedicine and Genom Center by Ezgi Karaca ([CSB-KaracaLab](https://github.com/CSB-KaracaLab)). 
 
 ## Features of RandOddEvenHeatMapper
-- Adjustable matrix size and number range, just by editing the corresponding cell.
+- provides adjustable matrix size and number range, just by editing the corresponding variables.
 ```
-required_size=100   #please state the size you require
+required_size=100   #please state the matrix size you require
 number_range=100    #please state the number range you require
 ```
-- 
+- produces a random matrix (i.e. 100*100 numpy array composed of random numbers in range of 0 to 100).
+- creates a heatmap figure.
+- checks the all elements in the produced matrix if they are odd or even.
+- creates a heatmap figure that shows odd and even numbers in the random matrix.
 
-**Quick Example(s)**
-
-```
-    #Load the output file of GROMACS covar ascii.
-    covar = pd.read_csv(r'../application_example/covar-3a-cgc.dat', sep=' ', header=None)
-    
-    #Convert the covariance matrix to cross-correlation and save it to csv file.
-    np.savetxt("../outputs/cross_corr_3a-cgc.csv", corr, delimiter=" ", fmt='%s')
-    
-    #Draw the graph and save it.
-    fig.savefig('../outputs/cross_corr_3a-cgc.jpeg', dpi=500)
-```
 ## Our folders describe:
 
 - **Script** contains the jupyter notebook script that produces a random matrix and heatmap.
