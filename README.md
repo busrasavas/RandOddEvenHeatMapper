@@ -1,6 +1,6 @@
 ![github_title](https://user-images.githubusercontent.com/62547137/150113171-b1360c37-84b2-4338-bcef-1e76163b672e.png)
 
-#### by Büşra Savaş and Ezgi Karaca
+#### by Büşra Savaş
 
 ## Motivation
 Dynamic cross correlation analysis (DCCA) is commonly used for interpreting molecular dynamics simulations. Moreover, DCCC is useful to analyze communications among different parts of complex systems. Despite the popularity of this analysis, we noticed that GROMACS does not directly give the relevant outputs. Here, we introduce a simple script that converts the covariance matrix produced by GROMACS covar to cross correlation matrix and creates a heat map figure.
