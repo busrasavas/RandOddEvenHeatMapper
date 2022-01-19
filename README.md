@@ -24,7 +24,6 @@ OddEvenMatrix=OddEvenMatrix.astype(int)
 - creates a heatmap figure for both random matrix and random odd/even matrix and saves the figures.
 
 <img src="https://user-images.githubusercontent.com/62547137/150119783-280cda8a-d61e-4069-b210-fe8028b45d6f.jpg" width="450" height="450">
-
 <img src="https://user-images.githubusercontent.com/62547137/150121475-4687dffc-146f-4ba4-83c5-20548cd7d1e8.jpg" width="450" height="450">
 ## Our folders describe:
 
