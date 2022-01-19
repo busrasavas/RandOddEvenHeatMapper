@@ -7,13 +7,17 @@
 RandOddEvenHeatMapper is a tool created for final project of MBG6113 lecture given in Izmir Biomedicine and Genom Center by Ezgi Karaca ([CSB-KaracaLab](https://github.com/CSB-KaracaLab)). 
 
 ## Features of RandOddEvenHeatMapper
-- provides adjustable matrix size and number range, just by editing the corresponding variables.
+- provides adjustable matrix size and number range, just by editing the corresponding variables in the jupyter notebook.
 ```
 required_size=100   #please state the matrix size you require
 number_range=100    #please state the number range you require
 ```
 - produces a random matrix (i.e. 100*100 numpy array composed of random numbers in range of 0 to 100).
-- creates a heatmap figure.
+```
+random_matrix=np.random.randint(number_range+1, size=(required_size, required_size))
+```
+- creates a heatmap figure saves it.
+![random_matrix_fig](https://user-images.githubusercontent.com/62547137/150119783-280cda8a-d61e-4069-b210-fe8028b45d6f.jpg)
 - checks the all elements in the produced matrix if they are odd or even.
 - creates a heatmap figure that shows odd and even numbers in the random matrix.
 
