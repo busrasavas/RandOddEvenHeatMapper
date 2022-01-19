@@ -17,7 +17,7 @@ number_range=100    #please state the number range you require
 random_matrix=np.random.randint(number_range+1, size=(required_size, required_size))
 ```
 - creates a heatmap figure saves it.
-![random_matrix_fig](https://user-images.githubusercontent.com/62547137/150119783-280cda8a-d61e-4069-b210-fe8028b45d6f.jpg)
+![random_matrix_fig](https://user-images.githubusercontent.com/62547137/150119783-280cda8a-d61e-4069-b210-fe8028b45d6f.jpg&s=300)
 - checks the all elements in the produced matrix if they are odd or even.
 - creates a heatmap figure that shows odd and even numbers in the random matrix.
 
